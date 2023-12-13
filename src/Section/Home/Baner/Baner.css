@@ -1,0 +1,65 @@
+
+*{
+    font-family: Playfair Display;
+}
+#baner{
+    padding: 302px 0 222px 0;
+    background: #030d1183;
+    opacity: 0.5px;
+}
+.baner_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 205px;
+}
+.baner_contant .one{
+    color: #F7D38A;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.baner_contant .two{
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.b_pera{
+    width: 550.376px;
+    color: #BEBBB4;
+    font-family: Paprika;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 56px;
+}
+.baner_image{
+    width: 380.604px;
+    height: 320px;
+    background: #C4C4C4;
+    flex-shrink: 0;
+}
+.baner_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.baner_btn{
+    display: flex;
+    align-items: center;
+}
+.baner_btn a{
+    padding: 14px 24px;
+    background: #D6A033;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: capitalize;
+}

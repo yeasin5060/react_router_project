@@ -1,0 +1,70 @@
+#our_service{
+    padding: 100px 0;
+    background: #fff;
+}
+.our_service_contant{
+    text-align: center;
+}
+.our_services_head{
+    color: #363024;
+    width: 311.838px;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 104.167% */
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.our_service_pera{
+    color: #524D43;
+    width: 645.664px;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    margin: 0 auto;
+}
+.hair_cut{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 145px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.hair_cut_box{
+    display: flex;
+    justify-content: space-between;
+}
+.hair_cut_head{
+    color: #363024;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.hair_cut_pera{
+    width: 500px;
+    color: #524D43;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+.hair_cut_price span{
+    width: 49.974px;
+    color: #D6A033;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    text-transform: lowercase;
+}

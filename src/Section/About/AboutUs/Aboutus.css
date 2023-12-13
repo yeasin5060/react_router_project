@@ -1,0 +1,91 @@
+#about_us{
+    padding: 200px 0;
+}
+.exceed{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 187, 0, 0.897);
+}
+.contant_wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.about_heading{
+    width: 650px;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+.about_pera{
+    width: 650.376px;
+    color: #000;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.about_from{
+    width:630px ;
+    padding: 30px;
+    background: rgb(0, 51, 128);
+    border-radius: 20px;
+}
+.form_head{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.form_pera{
+    color: #ffff;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+.form_email{
+    color: #ffff;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.form_input{
+    padding: 16px 20px;
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.form_err{
+    color: red;
+    font-family: Paprika;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.submit{
+    font-size: 18px ;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    background: rgba(255, 0, 0, 0.788);
+    margin-top: 20px;
+    cursor: pointer;
+}

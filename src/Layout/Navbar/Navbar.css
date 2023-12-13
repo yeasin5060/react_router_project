@@ -1,0 +1,43 @@
+#navbar{
+    padding: 24px;
+    background: a=blueviolet;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+ul li a{
+    color:#000;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+ul li a.active{
+    color: brown;
+}
+.nav_btn{
+    display: flex;
+    align-items: center;
+}
+.nav_btn a{
+    padding: 14px 24px;
+    background: #D6A033;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: capitalize;
+}
